@@ -1,0 +1,15 @@
+
+
+            Git command line basic commands
+
+
+
+1) create a new repository on the command line.
+
+        echo "# my_quora_examples" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git remote add origin https://github.com/vijaythreadtemp/my_quora_examples.git
+        git push -u origin master
+
